@@ -27,7 +27,7 @@ function comCen(arr, word) {
 }
 
 let X = ["Man", "I", "Love", "The", "Matrix", "Program"];
-console.log(communist(x, "Matrix"));
+console.log(comCen(x, "Matrix"));
 
 // Diagram
 // User calls function with the array (X) and their chosen word ("Matrix").
@@ -37,7 +37,7 @@ console.log(communist(x, "Matrix"));
 // i = 0, pos 0 value is 'Man', 0 < 6, 'Man' is not 'Matrix', goes else condition. Else pushes 'Man' to array result. i++ 0+1=1, i=1.
 // i = 4, pos 4 value is "Matrix", 4 < 6, 'Matrix' === 'Matrix', goes to 2nd loop.
 // Loop starts, let j = 0, length of word is 6,  j incremented by 1.
-// j = 0, pos 0 value is M, M is replaced by * and * is put into empty string. j++, 0+1=1. i=1.
+// j = 0, pos 0 value is M, M is replaced by * and * is put into empty string. j++, 0+1=1. j=1.
 // j = 5, pos 5 value is x, x is replaced by * and * is put into empty string. j++, 5+1=6. j=6.
 // j = 6, 6 = 6, J Loop ends. i++, 4+1=5, i=5.
 // i = 5, pos 5 value is 'Program', 'Program' is not 'Matrix', goes else condition. Else pushes 'Program' to array result. i++, 5+6. i=6.
