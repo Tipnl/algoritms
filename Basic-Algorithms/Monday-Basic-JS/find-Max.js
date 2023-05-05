@@ -24,3 +24,6 @@ function max(array) {
 // i = 4, array = 2, 2 does not > 10, i++, 4+1=5.
 // i = 5, array = 39, 39 > 10, i++, 5+1=6.
 // i = 6. array.length = 5, 6 does not > 5, Loop ends.
+
+// i wrote this wrong, the 0 does not indicate value 0, it represents element 0 in the array.
+// therefore -10 = -10, and 5 > -10, 10 > 5, 10 > 2, 39>10. 39 is the highest number in the array.
