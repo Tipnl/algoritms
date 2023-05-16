@@ -5,4 +5,4 @@
 // PsuedoCode:
 // Write a function that takes in a number.
 // if its divisible by 3, divide it by 3.
-// if its not divisible by 3, add 1 till it is divisible by 3.
+// if its not divisible by 3, add/subtract 1 till it is divisible by 3.
